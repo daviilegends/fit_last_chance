@@ -1,4 +1,4 @@
-const CACHE_NAME = 'fitlastchance-v1';
+const CACHE_NAME = 'fitlastchance-v3';
 const ASSETS = [
   '/',
   '/index.html',
