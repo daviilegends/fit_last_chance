@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" fill="none">
+  <rect width="192" height="192" rx="40" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+  <!-- Clock circle -->
+  <circle cx="96" cy="96" r="52" stroke="white" stroke-width="8" fill="none" stroke-opacity="0.9"/>
+  <!-- Clock hands -->
+  <line x1="96" y1="96" x2="96" y2="56" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <line x1="96" y1="96" x2="122" y2="110" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="96" cy="96" r="5" fill="white"/>
+  <!-- Flame -->
+  <path d="M96 130 C96 130 78 118 78 102 C78 94 84 88 90 86 C88 96 94 100 94 100 C94 100 92 92 98 86 C102 82 106 76 104 68 C110 74 118 84 118 98 C118 114 106 128 96 130Z" fill="white" fill-opacity="0.85"/>
+</svg>
