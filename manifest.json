@@ -2,10 +2,11 @@
   "name": "FitLastChance",
   "short_name": "FitLast",
   "description": "Intermittent fasting and weight tracker",
-  "start_url": "/",
+  "start_url": "/fit_last_chance/",
+  "scope": "/fit_last_chance/",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
+  "background_color": "#080b14",
+  "theme_color": "#080b14",
   "orientation": "portrait",
   "icons": [
     {
@@ -33,14 +34,14 @@
       "name": "Start Fast",
       "short_name": "Fast",
       "description": "Start a new fasting session",
-      "url": "/?action=fast",
+      "url": "/fit_last_chance/",
       "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Log Weight",
       "short_name": "Weight",
       "description": "Log your current weight",
-      "url": "/?action=weight",
+      "url": "/fit_last_chance/",
       "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
